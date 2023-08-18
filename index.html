@@ -1,0 +1,244 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> Projeto Fashion </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Paulo">
+        <meta name="description" content="Descrição">
+        <meta name="keywords" content="html5, tecnologia">
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <style>
+
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.header-top{
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+
+.logotipo{
+    margin: 10px 0px 0px 135px;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav a:hover{
+    color: white;
+}
+
+.header-nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0px 15px 0px px;
+    padding: 13px;
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+
+.portfolio{
+    padding: 50px 50px 100px 100px;
+    text-align: center;
+}
+
+.portfolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+
+.portfolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery{
+    padding: 0px 100px 50px 100px;
+    text-align: center;
+    color: #555;
+    overflow: auto;
+}
+
+.modelo1-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cards{
+    width: 32%;
+    float: left;
+    text-align: center;
+
+}
+
+.about{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact {
+    margin: 50px 0;
+}
+
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal; 
+    text-align: center;
+    font-weight: bold;
+}
+
+#maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#maps iframe{
+    width: 100%;
+}
+
+.rodape{
+    background: #0b171f;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+    </style>
+
+
+    <body>
+
+    <div id="principal">
+
+        
+            <header class="header-top">  
+                
+                <img class="logotipo" src="imagens/logo.png" alt="">
+
+                <nav class="header-nav">
+                    <ul>                               
+                        <li> <a href="index.html"> Portfolio </a> </li>
+                        <li> <a href="#"> About Us </a> </li>
+                        <li> <a href="#"> Contact </a> </li>
+                    </ul>
+                </nav>
+            
+            </header>
+
+            <img src="imagens/topo.jpg" alt="">
+
+            <article class="portfolio"> 
+                    <h1> New Fashion Everything Never Enough </h1>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris volutpat nisi non ante dictum congue. Cras id odio gravida,
+                        posuere velit sed, lacinia mi. Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus mus. Sed vehicula, ipsum vel
+                        congue cursus, mi neque tincidunt enim, egestas porttitor felis neque et risus.
+                        Maecenas fringilla hendrerit enim malesuada laoreet. Aenean quis tortor a odio tempus tincidunt.
+                        Vivamus rutrum nulla sed metus congue bibendum. Sed ut aliquam purus. Donec odio mauris, commodo
+                        sed dignissim vitae, dapibus eget mauris. </p>
+            </article> 
+
+            <section class="gallery">
+                <article class="cards">
+                    <img src="imagens/modelo1.jpg" alt="">
+                    <p class="modelo1-title"> Vest Romasa </p>
+                    <p class="modelo1-text"> Strong &amp; charismatic </p>
+                </article>
+                <article class="cards">
+                    <img src="imagens/modelo2.jpg" alt="">
+                    <p class="modelo1-title"> Jacket Fima </p>
+                    <p class="modelo1-text"> Strong Sersonality </p>
+                </article>
+                <article class="cards">
+                    <img src="imagens/modelo3.jpg" alt="">
+                    <p class="modelo1-title"> Jacket Black Kira  </p>
+                    <p class="modelo1-text"> Power Fascinating </p>
+                </article>
+            </section>
+
+
+            <article class="about">
+                    <h2> Everything Never Enough <br> Just Fashion </h2>
+                    <p> Praesent placerat eros eget lacus ullamcorper, id dapibus ante vestibulum.
+                        Curabitur quis condimentum diam. Duis aliquet erat vel laoreet tincidunt.
+                        Pellentesque vitae varius ligula. Phasellus in nibh tempus, gravida justo et, suscipit felis.
+                        Cras ornare arcu ac sodales tincidunt. Mauris vehicula erat vel ligula porttitor imperdiet.
+                        Curabitur nec magna urna. Sed porta ex ex, at pulvinar nibh aliquet quis. Integer dapibus congue
+                        vestibulum. Phasellus bibendum lobortis quam, nec sollicitudin nisl volutpat at. </p>
+            </article>
+
+
+            <div id="contact">
+                <address>
+                    Call me now for design <br> 012-1234-4567
+                </address>
+            </div>
+                
+            <div id="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.608928823559!2d-34.9064168856195!3d-8.141233883776842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1fbb126b6c8f%3A0x9428b8c3b9bb5afb!2sParque%20Dona%20Lindu!5e0!3m2!1spt-BR!2sbr!4v1676987269985!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+
+
+            <footer class="rodape">
+                Copyright &copy; fastfashion.com
+            </footer>
+
+        
+
+    </div>    
+    </body>
+
+</html>
